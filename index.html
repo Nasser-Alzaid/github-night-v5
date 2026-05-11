@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Quick Guide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>GitHub, Quickly Explained</h1>
+      <p>
+        GitHub helps developers store code, track changes, and work together on projects.
+      </p>
+      <img
+        src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80"
+        alt="Developer coding"
+      />
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Repository</h3>
+        <p>Your project folder containing code, files, and history.</p>
+      </div>
+      <div class="card">
+        <h3>Commit</h3>
+        <p>A saved snapshot of your work.</p>
+      </div>
+      <div class="card">
+        <h3>Branch</h3>
+        <p>A separate version where you can safely test new ideas.</p>
+      </div>
+    </section>
+
+    <section class="workflow">
+      <h2>Typical Workflow</h2>
+      <ul>
+        <li>Create a repository</li>
+        <li>Make changes</li>
+        <li>Commit your work</li>
+        <li>Push to GitHub</li>
+        <li>Collaborate with others</li>
+      </ul>
+
+      <button onclick="showMessage()">Why use GitHub?</button>
+      <p id="message"></p>
+    </section>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('message').textContent =
+        'GitHub helps you organize projects, keep history of changes, and collaborate with teams.';
+    }
+  </script>
+</body>
+</html>
